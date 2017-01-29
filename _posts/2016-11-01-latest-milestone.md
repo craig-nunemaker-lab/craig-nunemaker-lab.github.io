@@ -1,6 +1,6 @@
 ---
 title: We've raised $2000!
-author_staff_member: kevin-lee
+author_staff_member: 01-kevin-lee
 date: 2016-11-01
 ---
 

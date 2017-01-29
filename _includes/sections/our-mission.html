@@ -1,0 +1,27 @@
+<section>
+  <div class="container projects">
+    <h2 class="editable">Our Projects</h2>
+    <p class="editable"><img src="https://source.unsplash.com/9fQDKybDgqk/200x134" alt="Sheep" width="200" height="134">
+      The prevalence of obesity, defined by the accumulation of excess body fat, is dramatically increasing worldwide and is driving an epidemic of type 2 diabetes.  However, adipose tissue biology and obesity are more complex than previously believed.  Not only are there fat depot-specific differences, as an increase in visceral, but not subcutaneous fat, is positively associated with metabolic disorders, but recent studies have demonstrated that even a single adipose tissue depot is comprised of developmentally distinct subpopulations of adipocytes.  To investigate this cellular heterogeneity, we have developed novel clonal cellular lines and mouse models to identify and study subpopulations of white adipocytes.<br/><br/>
+
+      Utilizing these models, we have uncovered three adipocyte subpopulations that display unique, cell-autonomous gene expression profiles, distinguished by high expression of these marker genes: Wilms tumor 1 (Wt1), Transgelin (Taglin), and Myoxovirus 1 (Mx1). In addition, these subpopulations have unique metabolic properties and differentially responses to exogenous stimuli.  Utilizing cre transgenic mice, transcription of which is directed by the promoter/enhancers of these marker genes, lineage tracing analysis shows that these three preadipocyte populations independently give rise to adipocyte subpopulations in vivo and that these adipocyte subpopulations differentially contribute to the adipose tissue depots.<br/><br/>
+
+      Currently, our lab is investigating the role of these subpopulations in the regulation of whole-body metabolism.
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <blockquote>
+      <p class="quote editable">The ultimate measure of a sheep is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.</p>
+      <div class="attribute">
+        <p class="meta">
+          {% assign director = site.staff_members | where: "title", "Director" | first %}
+          <span class="author editable"><strong>{{ director.name }}</strong><br />{{ director.title}}</span>
+          <span class="image"><img class="editable" src="{{ site.baseurl }}/images/staff_members/{{ director.image }}" alt="{{ director.name }}"></span>
+        </p>
+      </div>
+    </blockquote>
+  </div>
+</section>

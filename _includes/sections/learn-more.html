@@ -1,0 +1,20 @@
+<section id="learn-more">
+  <div class="container">
+    <h2 class="editable">Our Members</h2>
+      {% for member in site.staff_members %}
+
+        {% assign mod = forloop.index0 | modulo: 3 %}
+
+        {% if mod == 0 %}
+          <ul class="thirds">{% include staff-member.html member=member %}
+        {% elsif mod == 2 %}
+          {% include staff-member.html member=member %}</ul>
+        {% else %}
+          {% include staff-member.html member=member %}
+        {% endif %}
+
+        {% comment %}Close up shop if we're on the last one{% endcomment %}
+        {% if forloop.last %}</ul>{% endif %}
+      {% endfor %}
+  </div>
+</section>
