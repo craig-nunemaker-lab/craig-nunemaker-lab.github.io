@@ -4,7 +4,6 @@ google_analytics_key:
 
 collections:
   staff_members:
-    _hide_content: true
 
 permalink: pretty
 
@@ -25,5 +24,14 @@ lab:
   university: Ohio University
   university_short: OHIO
   name: Kevin Lee Lab
+  mission_statement: The Sheep Vote is a non-profit organisation started in 2005 by the great shepard, Wooly McBaa.
+  contact:
+    address: 123 Example Street, City
+    phone: 740-593-2327
+    email: leek2@ohio.edu
+    facebook:
+    twitter:
+    google_plus:
+
 
 newsletter_action: "//your-mailchimp-action-url.com"

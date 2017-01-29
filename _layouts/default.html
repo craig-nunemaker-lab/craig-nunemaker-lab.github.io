@@ -19,7 +19,6 @@
     {% endif %}
     <title>{% include lab_name_with_university_identifier.html %}</title>
   </head>
-
   <body>
     <nav>
       <div class="container">
@@ -36,44 +35,56 @@
       <p class="editor-link" style="margin-bottom: 20px;"><a href="cloudcannon:collections/_data/company.yml" class="btn"><strong>&#9998;</strong> Update footer</a></p>
       <div class="container">
         <div class="about">
-          <p>{{ site.data.company.mission_statement }}</p>
+          <p>{{ site.lab.mission_statement }}</p>
         </div>
 
         <div class="contact">
-          <address>
-            <a href="https://www.google.com/maps/place/{{ site.data.company.address | url_encode }}">
-              {% include icons/footer.html icon="place" %} {{ site.data.company.address }}
-            </a>
-          </address>
-          <p class="email">
-            <a href="mailto:{{ site.data.company.email }}">
-              {% include icons/footer.html icon="email" %} {{ site.data.company.email }}
-            </a>
-          </p>
-          <p class="phone">
-            <a href="tel:{{ site.data.company.phone | replace: ' ', '-' }}">
-              {% include icons/footer.html icon="phone" %} {{ site.data.company.phone }}
-            </a>
-          </p>
+          {% if site.lab.contact.address %}
+            <address>
+              <a href="https://www.google.com/maps/place/{{ site.lab.contact.address | url_encode }}">
+                {% include icons/footer.html icon="place" %} {{ site.lab.contact.address }}
+              </a>
+            </address>
+          {% endif %}
+          {% if site.lab.contact.email %}
+            <p class="email">
+              <a href="mailto:{{ site.lab.contact.email }}">
+                {% include icons/footer.html icon="email" %} {{ site.lab.contact.email }}
+              </a>
+            </p>
+          {% endif %}
+          {% if site.lab.contact.phone %}
+            <p class="phone">
+              <a href="tel:{{ site.lab.contact.phone | replace: ' ', '-' }}">
+                {% include icons/footer.html icon="phone" %} {{ site.lab.contact.phone }}
+              </a>
+            </p>
+          {% endif %}
         </div>
 
         <div class="sharing">
-          <a class="facebook" href="https://www.facebook.com/{{ site.data.company.facebook }}">
-            {% include icons/social-media.html social_icon="facebook" %}
-          </a>
-          <a class="twitter" href="https://twitter.com/{{ site.data.company.twitter }}">
-            {% include icons/social-media.html social_icon="twitter" %}
-          </a>
-          <a class="google-plus" href="https://plus.google.com/{{ site.data.company.google_plus }}">
-            {% include icons/social-media.html social_icon="google-plus" %}
-          </a>
+          {% if site.lab.contact.facebook %}
+            <a class="facebook" href="https://www.facebook.com/{{ site.lab.contact.facebook }}">
+              {% include icons/social-media.html social_icon="facebook" %}
+            </a>
+          {% endif %}
+          {% if site.lab.contact.twitter %}
+            <a class="twitter" href="https://twitter.com/{{ site.lab.contact.twitter }}">
+              {% include icons/social-media.html social_icon="twitter" %}
+            </a>
+          {% endif %}
+          {% if site.lab.contact.google_plus %}
+            <a class="google-plus" href="https://plus.google.com/{{ site.lab.contact.google_plus }}">
+              {% include icons/social-media.html social_icon="google-plus" %}
+            </a>
+          {% endif %}
         </div>
       </div>
     </footer>
     <p class="copyright">
-      <a href="https://cloudcannon.com/">
+      <!-- TODO: <a href="https://cloudcannon.com/">
         Template by CloudCannon
-      </a>
+      </a> -->
     </p>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script type="text/javascript">
