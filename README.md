@@ -57,14 +57,6 @@ This site uses the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) pl
 1. Add your Google Analytics key to `_config.yml`
 2. Run your site in production `JEKYLL_ENV=production`. This is the default in CloudCannon and GitHub Pages.
 
-## Donorbox
-
-[Donorbox](https://donorbox.org/) is a third party embeddable donation form for websites. To install:
-
-1. Set up a campaign on Donorbox
-2. Copy the embed code from the Dashboard screen
-3. Paste it into `donation_embed` in `_config.yml`
-
 ## Mailchimp
 
 [Mailchimp](https://mailchimp.com/) is a third party embeddable newsletter for websites. To install:
