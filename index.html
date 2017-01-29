@@ -1,13 +1,14 @@
 ---
 layout: default
-header_background_image: https://source.unsplash.com/0U_gjae2TKo/2000x1322?a=.png
-newsletter_background_image: https://source.unsplash.com/c8ET5XvBwnU/2000x1322?a=.png
+
+header_background_image: https://source.unsplash.com/rmWtVQN5RzU/2000x1322?a=.png
+newsletter_background_image: https://source.unsplash.com/JuFcQxgCXwA/2000x1322?a=.png
 ---
 <header style="background-image: url({% include relative-src.html src=page.header_background_image %});">
   <div class="container">
     <h1 class="editable">{% include lab_name.html %}</h1>
     <div class="button">
-      <a href="#join">Join</a>
+      <a href="#join">Join the Lab</a>
     </div>
   </div>
   <div class="learn-more"><a href="#learn-more">Learn more <span class="arrow">&#x25BC;</span></a></div>
@@ -52,8 +53,9 @@ newsletter_background_image: https://source.unsplash.com/c8ET5XvBwnU/2000x1322?a
       <p class="quote editable">The ultimate measure of a sheep is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.</p>
       <div class="attribute">
         <p class="meta">
-          <span class="author editable"><strong>Wooly McBaa</strong><br />Founder</span>
-          <span class="image"><img class="editable" src="{{ site.baseurl }}/images/wooly.jpg" alt="Wooly"></span>
+          {% assign director = site.staff_members | where: "title", "Director" | first %}
+          <span class="author editable"><strong>{{ director.name }}</strong><br />{{ director.title}}</span>
+          <span class="image"><img class="editable" src="{{ site.baseurl }}/images/staff_members/{{ director.image }}" alt="{{ director.name }}"></span>
         </p>
       </div>
     </blockquote>
@@ -89,7 +91,7 @@ newsletter_background_image: https://source.unsplash.com/c8ET5XvBwnU/2000x1322?a
       {% assign author = site.staff_members | where: "url", author_id | first %}
       <div class="post">
         <div class="post-title">
-          <img src="{% include relative-src.html src=author.image %}" alt="Photo of {{ author.name }}" width="50" height="50" />
+          <img src="/images/staff_members/{{ author.image }}" alt="Photo of {{ author.name }}" width="50" height="50" />
           <h3>{{ post.title }}</h3>
           <p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
         </div>

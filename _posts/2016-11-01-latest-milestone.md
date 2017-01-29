@@ -1,6 +1,6 @@
 ---
 title: We've raised $2000!
-author_staff_member: wooly-mcbaa
+author_staff_member: kevin-lee
 date: 2016-11-01
 ---
 
