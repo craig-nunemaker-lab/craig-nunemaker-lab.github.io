@@ -1,20 +1,15 @@
 <section id="learn-more">
   <div class="container">
     <h2 class="editable">Our Members</h2>
-      {% for member in site.staff_members %}
+      {% assign num_of_uls = site.staff_members | size | divided_by: 3 | plus: 1 %}
 
-        {% assign mod = forloop.index0 | modulo: 3 %}
-
-        {% if mod == 0 %}
-          <ul class="thirds">{% include staff-member.html member=member %}
-        {% elsif mod == 2 %}
-          {% include staff-member.html member=member %}</ul>
-        {% else %}
-          {% include staff-member.html member=member %}
-        {% endif %}
-
-        {% comment %}Close up shop if we're on the last one{% endcomment %}
-        {% if forloop.last %}</ul>{% endif %}
+      {% for index in (1..num_of_uls) %}
+        <ul class="thirds">
+          {% assign member_offset = index | minus: 1 | times: 3 %}
+          {% for member in site.staff_members offset: member_offset limit: 3 %}
+            {% include staff-member.html member=member %}
+          {% endfor %}
+        </ul>
       {% endfor %}
   </div>
 </section>
