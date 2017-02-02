@@ -97,6 +97,16 @@
           $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
         }
       });
+
+      function showOrHideNav(ev){
+        if(window.pageYOffset > 400) {
+          $("nav").slideDown('slow')
+        } else {
+          $("nav").slideUp('slow')
+        }
+      }
+
+      window.onscroll=showOrHideNav
     </script>
   </body>
 </html>
