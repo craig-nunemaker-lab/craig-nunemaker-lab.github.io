@@ -8,7 +8,6 @@
 }
 
 .join {
-  text-align: center;
 }
 
 nav .button {
@@ -97,6 +96,25 @@ blockquote {
 }
 
 .newsletter {
+  .form-container {
+    display: flex;
+
+    .form-padding {
+      flex-grow: 1;
+    }
+
+    form {
+      background: #f4f7f8;
+      border-radius: 8px;
+      border: 1px solid #fff;
+      padding: 3em;
+      font-family: Georgia,"Times New Roman",Times,serif;
+      box-shadow: 2px 2px 2px 1px #4d4d4d;
+
+      flex-grow: 1;
+    }
+  }
+
   padding: 100px 0;
   color: #fff;
   text-shadow: 1px 1px 1px #000;

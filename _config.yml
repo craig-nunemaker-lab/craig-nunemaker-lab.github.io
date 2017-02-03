@@ -35,4 +35,4 @@ lab:
     google_plus:
 
 
-newsletter_action: "//your-mailchimp-action-url.com"
+form_submission_action: "//your-mailchimp-action-url.com"

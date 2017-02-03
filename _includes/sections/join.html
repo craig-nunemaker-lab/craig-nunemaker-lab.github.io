@@ -1,19 +1,50 @@
 <section class="newsletter" style="background-image: url({% include relative-src.html src= page.newsletter_background_image %});">
   <div class="container">
     <h2 class="editable">Join us</h2>
-    <p class="editable">Sign up to hear the latest news and progress in our fight for the sheep vote.</p>
-    <form action="{{ site.newsletter_action }}" method="post">
-      <input type="text" name="EMAIL" placeholder="Email">
-      <input type="submit" value="Sign up"/>
+    <p class="editable">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+    <div class="form-container">
+    <div class="form-padding"></div>
+    <form method="post" action="{{ site.form_submission_action }}" method="post">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="Name" />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" name="email" placeholder="name@institution.edu" />
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" placeholder="(123) 456-7890" />
+      </div>
+
+      <div class="form-group">
+        <label for="background">Academic Background and Interests</label>
+      </div>
+
+      <div class="form-group">
+        <textarea name="background" rows="10">Academic Background</textarea>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" value="Send" />
+      </div>
     </form>
+    <div class="form-padding"></div>
+    </div>
   </div>
 </section>
 
 <section id="join">
   <div class="container">
     <h2 class="editable">Join the Lab</h2>
-    <div class="join">
+    <div class="join editable">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
   </div>
 </section>
