@@ -64,29 +64,47 @@
           {% endif %}
         </div>
 
-        <div class="sharing">
-          {% if site.lab.contact.facebook %}
-            <a class="facebook" href="https://www.facebook.com/{{ site.lab.contact.facebook }}">
-              {% include icons/social-media.html social_icon="facebook" %}
-            </a>
-          {% endif %}
-          {% if site.lab.contact.twitter %}
-            <a class="twitter" href="https://twitter.com/{{ site.lab.contact.twitter }}">
-              {% include icons/social-media.html social_icon="twitter" %}
-            </a>
-          {% endif %}
-          {% if site.lab.contact.google_plus %}
-            <a class="google-plus" href="https://plus.google.com/{{ site.lab.contact.google_plus }}">
-              {% include icons/social-media.html social_icon="google-plus" %}
-            </a>
-          {% endif %}
-        </div>
+        {% if site.lab.attribution.university.logo or site.lab.attribution.college.logo %}
+          <div class="attribution">
+            {% if site.lab.attribution.university.logo %}
+              <a class="entity university" href="{{ site.lab.attribution.university.url }}">
+                <img src="{{ site.lab.attribution.university.logo }}" />
+              </a>
+            {% endif %}
+            {% if site.lab.attribution.college.logo %}
+              <a class="entity college" href="{{ site.lab.attribution.college.url }}">
+                <img src="{{ site.lab.attribution.college.logo }}" />
+              </a>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% if site.lab.contact.facebook or site.lab.contact.twitter or site.lab.contact.google_plus %}
+          <div class="sharing">
+            {% if site.lab.contact.facebook %}
+              <a class="facebook" href="https://www.facebook.com/{{ site.lab.contact.facebook }}">
+                {% include icons/social-media.html social_icon="facebook" %}
+              </a>
+            {% endif %}
+            {% if site.lab.contact.twitter %}
+              <a class="twitter" href="https://twitter.com/{{ site.lab.contact.twitter }}">
+                {% include icons/social-media.html social_icon="twitter" %}
+              </a>
+            {% endif %}
+            {% if site.lab.contact.google_plus %}
+              <a class="google-plus" href="https://plus.google.com/{{ site.lab.contact.google_plus }}">
+                {% include icons/social-media.html social_icon="google-plus" %}
+              </a>
+            {% endif %}
+          </div>
+        {% endif %}
+
       </div>
     </footer>
     <p class="copyright">
-      <!-- TODO: <a href="https://cloudcannon.com/">
-        Template by CloudCannon
-      </a> -->
+      <a href="https://www.rakefire.io/?lab={{ site.lab.name | slugify }}&src={{ site.url | uri_escape }}">
+        Theme and Hosting by Rakefire
+      </a>
     </p>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script type="text/javascript">

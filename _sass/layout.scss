@@ -63,7 +63,7 @@ blockquote {
 
       font-size: 60px;
       font-weight: bold;
-      color: #999;
+      color: #3d3d3d;
 
       position: absolute;
       left: 9px;
@@ -76,8 +76,6 @@ blockquote {
     vertical-align: middle;
 
     .author {
-      // position: absolute;
-      // top: 0;
       display: inline-block;
       vertical-align: middle;
     }
@@ -117,7 +115,7 @@ blockquote {
 
   padding: 100px 0;
   color: #fff;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 1px #3d3d3d;
 }
 
 footer {
@@ -175,6 +173,12 @@ footer {
       box-sizing: content-box;
       padding: 0 25px;
 
+    }
+  }
+
+  .attribution {
+    .entity img {
+      margin: .5em;
     }
   }
 }

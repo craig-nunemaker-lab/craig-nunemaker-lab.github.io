@@ -104,36 +104,36 @@ form {
       flex-grow: 2;
     }
   }
+}
 
-  input[type="submit"] {
-    padding: 19px 39px 18px 39px;
-    border: 1px solid #16a085;
-    text-align: center;
-    width: 100%;
-  }
+input[type="submit"] {
+  padding: 19px 39px 18px 39px;
+  border: 1px solid #16a085;
+  text-align: center;
+  width: 100%;
+}
 
-  .button a, input[type="submit"], input[type="text"], textarea {
-    border: 0;
-    padding: 15px;
-    box-sizing: content-box;
-    font-size: 1em;
-    font-weight: 100;
-  }
+.button a, input[type="submit"], input[type="text"], textarea {
+  border: 0;
+  padding: 15px;
+  box-sizing: content-box;
+  font-size: 1em;
+  font-weight: 100;
+}
 
-  .button a, input[type="submit"] {
-    background: #5cb85c;
-    color: #fff;
-    cursor: pointer;
-    box-shadow: 1px 1px 0 0 #408040;
-  }
+.button a, input[type="submit"] {
+  background: #5cb85c;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 1px 1px 0 0 #408040;
+}
 
-  .button a {
-    display: inline-block;
-    text-decoration: none;
-    border-radius: 3px;
+.button a {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 3px;
 
-    &:hover {
-    }
+  &:hover {
   }
 }
 
