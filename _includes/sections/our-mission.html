@@ -17,9 +17,9 @@
       <p class="quote editable">Our lab seeks to uncover molecular and functional differences between morphologically indistinguishable fat cells</p>
       <div class="attribute">
         <p class="meta">
-          {% assign director = site.staff_members | where: "title", "Director" | first %}
-          <span class="author editable"><strong>{{ director.name }}</strong><br />{{ director.title}}</span>
-          <span class="image"><img class="editable" src="{{ site.baseurl }}/images/staff_members/{{ director.image }}" alt="{{ director.name }}"></span>
+          {% assign principle = site.staff_members | where: "title", "Principle Investigator" | first %}
+          <span class="author editable"><strong>{{ principle.name }}</strong><br />{{ principle.title}}</span>
+          <span class="image"><img class="editable" src="{{ site.baseurl }}/images/staff_members/{{ principle.image }}" alt="{{ principle.name }}"></span>
         </p>
       </div>
     </blockquote>
