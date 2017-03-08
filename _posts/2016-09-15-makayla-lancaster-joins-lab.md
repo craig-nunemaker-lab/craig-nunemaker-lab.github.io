@@ -4,4 +4,4 @@ date: 2016-09-15 00:00:00
 ---
 
 
-Makayla Lancaster has just joined the Lee lab. &nbsp;Welcome Makayla!
+Makayla Lancaster has just joined the Lee lab.  Welcome Makayla!
