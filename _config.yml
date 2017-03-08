@@ -44,3 +44,6 @@ lab:
     google_plus:
 
 form_submission_action: "//your-mailchimp-action-url.com"
+form:
+  background:
+    placeholder: I'm a senior at Ohio University studying Biological Sciences. I'm intersted in studying lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
