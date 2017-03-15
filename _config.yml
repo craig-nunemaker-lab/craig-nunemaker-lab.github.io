@@ -3,7 +3,8 @@ baseurl:
 google_analytics_key:
 
 collections:
-  staff_members:
+  - staff_members
+  - publications
 
 permalink: pretty
 
@@ -45,4 +46,4 @@ lab:
 form_submission_action: "//your-mailchimp-action-url.com"
 form:
   background:
-    placeholder: I'm a senior at ___________ studying ____________________. I'm interested in joing your lab for graduate studies, focusing on...
+    placeholder: I'm a senior at ___________ studying ____________________. I'm interested in joining your lab for graduate studies. I'd like to focus research on...
