@@ -21,9 +21,8 @@ defaults:
       layout: "default"
 
 lab:
-  name: Kevin Lee Lab
+  name: Lee Lab
   tag_line: Understanding the Biology of Adipocytes
-  mission_statement: Understanding the Biology of Adipocytes
   attribution:
     university:
       name: Ohio University
@@ -36,7 +35,7 @@ lab:
       logo: /images/logos/hcom.png
       url: https://www.ohio.edu/medicine/
   contact:
-    address: Academic and Research Center, Ohio University
+    address: Academic and Research Center, Ohio University, Athens, Ohio
     phone: 740-593-2327
     email: leek2@ohio.edu
     facebook:
@@ -46,4 +45,4 @@ lab:
 form_submission_action: "//your-mailchimp-action-url.com"
 form:
   background:
-    placeholder: I'm a senior at Ohio University studying Biological Sciences. I'm intersted in studying lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+    placeholder: I'm a senior at ___________ studying ____________________. I'm interested in joing your lab for graduate studies, focusing on...
