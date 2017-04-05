@@ -44,7 +44,9 @@ lab:
     google_plus:
   quote: Our lab seeks to uncover molecular and functional differences between morphologically indistinguishable fat cells.
 
-form_submission_action: "//your-mailchimp-action-url.com"
+form_submission:
+  action: http://formspree.io/
+  email: leek2@ohio.edu
 form:
   background:
     placeholder: I'm a senior at ___________ studying ____________________. I'm interested in joining your lab for graduate studies. I'd like to focus research on...
