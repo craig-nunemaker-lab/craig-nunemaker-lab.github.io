@@ -308,3 +308,34 @@ hr {
     margin-bottom: 1.5em;
   }
 }
+
+
+.projects {
+  img {
+    @media #{$tablet} {
+      width: 100%;
+      height: auto;
+      padding-bottom: 10px;
+    }
+
+    @media #{$desktop} {
+      height: 200px;
+      width: 200px;
+    }
+  }
+
+}
+
+#quote {
+  background-image: url(/images/backgrounds/green_and_red_fat_cells.png);
+  background-size: 100%;
+
+  color: white;
+  text-shadow: 2px 2px 2px #000 !important;
+
+  .quote {
+    &::before {
+      color: white;
+    }
+  }
+}
