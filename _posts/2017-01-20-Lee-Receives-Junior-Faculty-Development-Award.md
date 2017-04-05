@@ -1,5 +1,5 @@
 ---
-title: Lee lab receives American Diabetes Association Grant
+title: Lee Lab receives American Diabetes Association Grant
 date: 2017-01-20
 ---
 
