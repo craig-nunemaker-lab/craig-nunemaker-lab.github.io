@@ -1,6 +1,15 @@
 ---
 ---
 
+@mixin shadow-for-text-over-photo {
+  color: white;
+  text-shadow: 2px 2px 2px #000 !important;
+}
+
 @import "variables";
 @import "elements";
 @import "layout";
+
+a, a:visited, a:hover {
+  color: $link-color;
+}
