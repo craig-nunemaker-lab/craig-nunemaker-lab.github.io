@@ -8,6 +8,10 @@ collections:
 
 permalink: pretty
 
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 defaults:
   -
     scope:
