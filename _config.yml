@@ -61,4 +61,4 @@ form_submission:
   email: leek2@ohio.edu
 form:
   background:
-    placeholder: I'm a senior at ___________ studying ____________________. I'm interested in joining your lab for graduate studies. I'd like to focus research on...
+    placeholder: I'm a senior at ___________ studying ____________________. I'm interested in joining your lab for graduate studies. I'd like to focus research on...  Please do not enter any sensitive/confidential information (i.e. grades, student ID, financial need, or any FERPA data)
