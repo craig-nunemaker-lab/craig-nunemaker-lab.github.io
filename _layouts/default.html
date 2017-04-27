@@ -18,7 +18,12 @@
         ga("send", "pageview");
       </script>
     {% endif %}
-    <title>{% include lab_name_with_university_identifier.html %}</title>
+    <title>{% include lab_name_with_university_identifier_and_seo.html %}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" conent="index,follow" />
+    <meta name="copyright" content="{{ site.copyright }}" />
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.lab.description }}{% endif %}" />
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.lab.keywords }}{% endif %}" />
   </head>
   <body>
     <nav>

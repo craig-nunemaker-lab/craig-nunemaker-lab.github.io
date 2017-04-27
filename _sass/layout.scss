@@ -32,7 +32,6 @@ nav .button {
     margin-top: 30px;
     text-align: center;
 
-//    line-height: 150px;
     .image {
       display: inline-block;
     }
@@ -65,7 +64,7 @@ blockquote {
 
       font-size: 60px;
       font-weight: bold;
-      color: #3d3d3d;
+      color: $quote_color;
 
       position: absolute;
       left: 9px;
@@ -337,7 +336,7 @@ hr {
 
   .quote {
     &::before {
-      color: white;
+      color: #{$quote_color};
     }
   }
 }

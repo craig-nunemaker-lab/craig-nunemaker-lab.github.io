@@ -1,7 +1,4 @@
-url: https://kevin-lee-lab.github.io/
-baseurl:
-google_analytics_key:
-
+# Don't touch
 collections:
   - staff_members
   - publications
@@ -25,9 +22,18 @@ defaults:
     values:
       layout: "default"
 
+# Ok to change
+url: https://kevin-lee-lab.github.io/
+baseurl:
+google_analytics_key: UA-98231289-1
+
+copyright: "Ohio University is a trademark of Ohio University; Rakefire is a trademaker of Rakefire LLC"
+
 lab:
   name: Lee Lab
   tag_line: Understanding the Biology of Adipocytes
+  keywords: "diabetes research, diabetes, research, fat cells, Kevin Lee, Diabetes Institute, Ohio University, adipocytes, adipose"
+  description: Uncover molecular and functional differences between morphologically indistinguishable fat cells at Ohio University.
   attribution:
     university:
       name: Ohio University
@@ -46,7 +52,9 @@ lab:
     facebook:
     twitter:
     google_plus:
-  quote: Our lab seeks to uncover molecular and functional differences between morphologically indistinguishable fat cells.
+  quote:
+    text: Our lab seeks to uncover molecular and functional differences between morphologically indistinguishable fat cells.
+    color: "#fff"
 
 form_submission:
   action: http://formspree.io/

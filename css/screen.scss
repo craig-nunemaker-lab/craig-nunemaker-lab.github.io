@@ -1,6 +1,10 @@
 ---
 ---
 
+// Variables
+
+$quote_color: {{ site.lab.quote.color }};
+
 @mixin shadow-for-text-over-photo {
   color: white;
   text-shadow: 2px 2px 2px #000 !important;
