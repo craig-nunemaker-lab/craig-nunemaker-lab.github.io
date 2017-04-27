@@ -23,7 +23,7 @@ defaults:
       layout: "default"
 
 # Ok to change
-url: https://kevin-lee-lab.github.io/
+url: http://leelab.hcom.ohio.edu/
 baseurl:
 google_analytics_key: UA-98231289-1
 
