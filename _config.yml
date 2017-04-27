@@ -23,9 +23,9 @@ defaults:
       layout: "default"
 
 # Ok to change
-url: http://leelab.hcom.ohio.edu/
+url: http://nunemakerlab.hcom.ohio.edu/
 baseurl:
-google_analytics_key: UA-98231289-1
+google_analytics_key: UA-98231289-2
 
 copyright: "Ohio University is a trademark of Ohio University; Rakefire is a trademaker of Rakefire LLC"
 
