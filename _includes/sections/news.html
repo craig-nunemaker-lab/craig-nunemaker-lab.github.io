@@ -6,7 +6,7 @@
       <div class="post">
         <div class="post-title">
           <h3>{{ post.title }}</h3>
-          <p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
+          {% unless site.news.show_dates == false %}<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>{% endunless %}
         </div>
         {{ post.content }}
         <p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="btn"><strong>&#9998;</strong> Edit Update</a></p>
