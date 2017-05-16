@@ -3,10 +3,13 @@ layout: default
 ---
 <section>
   <div class="container">
-    {% unless page.slug == "overview" %}<h1>{{ page.title }}</h1>{% endunless %}
+    <h1>{{ page.title }}</h1>
+    {% capture back_link %}{% unless page.name == "overview" %}<p><a href="/projects/overview">&lt; back to projects</a></p>{% endunless %}{% endcapture %}
+
+    {{ back_link }}
 
     {{ content }}
 
-    {% unless page.slug == "overview" %}<p><a href="/projects/overview">&lt; back to projects</a></p>{% endunless %}
+    {{ back_link }}
   </div>
 </section>

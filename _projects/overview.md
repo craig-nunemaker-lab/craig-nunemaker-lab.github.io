@@ -1,8 +1,11 @@
 ---
-title: Overview
+name: overview
+title: Our Focus
 ---
 
-## What are Islets for Langerhans?
+Without insulin, your body would not be able to regulate how much fuel (glucose) to provide to your muscles or how much energy should be put into storage as fat. Without insulin, you get diabetes (too much sugar in the blood, and not enough where it belongs). My lab studies the cells in the pancreas that make and release insulin in order to learn how they help to regulate energy needs of the body and to learn how to fix what goes wrong with the beta-cells in type 2 diabetes (T2D). 
+
+### What are Islets for Langerhans?
 
 Physician Paul Langerhans first identified round structures in the pancreas as “islets” (Latin for islands) within a sea of exocrine pancreas tissue. These structures, named in his honor as “Islets of Langerhans”, contain the cells needed for regulating blood glucose levels in the body. Islets consist of several cell types, including insulin-secreting beta-cells that lower blood sugar and glucagon-secreting alpha-cells that raise blood sugar (to counteract insulin’s effects).
 
@@ -10,7 +13,7 @@ We study the insulin-producing beta-cells inside these islets because these cell
 
 Islets are tricky to study because they are widely separated from one another, and they make up only 1-2% of the total volume of the pancreas. In order to study these micro-organs in a dish, these [islets must first be isolated from the rest of the pancreas](#islet-isolation), a tricky process.
 
-## Islet isolation
+### Islet isolation
 
 Islets are obtained by a tricky isolation process that consists of two basic steps:
 
@@ -19,7 +22,7 @@ Islets are obtained by a tricky isolation process that consists of two basic ste
 2. The pancreas is gently broken apart and then suspended in a Histopaque gradient in a tube. The container is then centrifuged at high speed and the gradient captures the islets while the denser remainder of the pancreas gets sucked down into a pellet.
 A much more detailed description of this process is described in our [&quot;Practical Guide to Islet Isolation and Assessment&quot;](http://biologicalproceduresonline.biomedcentral.com/articles/10.1007/s12575-009-9021-0)
 
-## Projects:
+### Projects:
 
 Our laboratory studies diabetes at the cellular level. Specifically, we study pancreatic islets (above) in mouse models of diabetes to identify the earliest possible signs of problems in islet function. We have several ongoing projects in the lab.
 

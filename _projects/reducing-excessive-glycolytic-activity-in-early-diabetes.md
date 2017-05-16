@@ -1,4 +1,5 @@
 ---
+name: reducing-excessive-glycolytic-activity-in-early-diabetes
 title: Reducing excessive glycolytic activity in early diabetes
 ---
 

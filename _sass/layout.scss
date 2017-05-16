@@ -131,11 +131,11 @@ footer {
   padding: 40px 0;
 
   &, a {
-    color: #8e8e8e;
+    color: #8e8e8e !important;
   }
 
   a:hover {
-    color: #fff;
+    color: #fff !important;
 
     svg {
       fill: #fff;
