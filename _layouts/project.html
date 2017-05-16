@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<section>
+  <div class="container">
+    {% unless page.slug == "overview" %}<h1>{{ page.title }}</h1>{% endunless %}
+
+    {{ content }}
+
+    {% unless page.slug == "overview" %}<p><a href="/projects/overview">&lt; back to projects</a></p>{% endunless %}
+  </div>
+</section>

@@ -1,7 +1,11 @@
 # Don't touch
 collections:
-  - staff_members
-  - publications
+  staff_members:
+    output: false
+  publications:
+    output: false
+  projects:
+    output: true
 
 permalink: pretty
 
@@ -16,6 +20,12 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
   -
     scope:
       path: ""

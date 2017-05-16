@@ -25,7 +25,7 @@
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.lab.description }}{% endif %}" />
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.lab.keywords }}{% endif %}" />
   </head>
-  <body>
+  <body class="{{ page.collection }} {{ page.slug }} ">
     <nav>
       <div class="container">
         <div class="logo">
@@ -123,6 +123,10 @@
       });
 
       $(window).on('scroll', function() {
+        if($("body.projects").length > 0) {
+          return
+        }
+
         if(window.pageYOffset > 400) {
           $("nav").slideDown('slow')
         } else {

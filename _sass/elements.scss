@@ -21,35 +21,22 @@ img {
 h1 {
   padding: 0;
   margin: 0 0 20px 0;
+  font-size: 3.5rem;
 }
 
 h2 {
   text-align: center;
   margin: 0;
+  font-size: 3rem;
 }
 
 h3 {
   margin: 20px 0 20px 0;
+  font-size: 1.8rem;
 }
 
-p {
-  line-height: 1.4em;
-}
-
-h1 {
-  font-size: 3.5em;
-}
-
-h2 {
-  font-size: 3em;
-}
-
-h3 {
-  font-size: 1.8em;
-}
-
-p {
-  font-size: 1.3em;
+p, li {
+  font-size: 1.3rem;
 }
 
 nav {
@@ -151,4 +138,10 @@ input[type="submit"] {
 
 .center {
   text-align: center;
+}
+
+@mixin black-links {
+  a, a:active, a:visited, a:hover {
+    color: #000;
+  }
 }
