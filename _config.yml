@@ -69,7 +69,7 @@ lab:
     color: "#fff"
 
 form_submission:
-  action: http://formspree.io/
+  action: https://formspree.io/
   email: nunemake@ohio.edu
 form:
   background:
