@@ -3,7 +3,7 @@ name: overview
 title: Our Focus
 ---
 
-Without insulin, your body would not be able to regulate how much fuel (glucose) to provide to your muscles or how much energy should be put into storage as fat. Without insulin, you get diabetes (too much sugar in the blood, and not enough where it belongs). My lab studies the cells in the pancreas that make and release insulin in order to learn how they help to regulate energy needs of the body and to learn how to fix what goes wrong with the beta-cells in type 2 diabetes (T2D). 
+Without insulin, your body would not be able to regulate how much fuel (glucose) to provide to your muscles or how much energy should be put into storage as fat. Without insulin, you get diabetes (too much sugar in the blood, and not enough where it belongs). My lab studies the cells in the pancreas that make and release insulin in order to learn how they help to regulate energy needs of the body and to learn how to fix what goes wrong with the beta-cells in type 2 diabetes (T2D).
 
 ### What are Islets for Langerhans?
 
@@ -28,4 +28,3 @@ Our laboratory studies diabetes at the cellular level. Specifically, we study pa
 
 1. [Low-grade systemic inflammation](/projects/low-grade-systemic-inflammation) as a trigger of islet dysfunction in type 2 diabetes.
 2. [Reducing excessive glycolytic activity](/projects/reducing-excessive-glycolytic-activity-in-early-diabetes) to preserve beta-cell function in improve glycemia in the early stages of type 2 diabetes.
-3. [Collaborations](/projects/collaborations)
