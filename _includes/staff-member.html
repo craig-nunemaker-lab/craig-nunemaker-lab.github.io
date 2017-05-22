@@ -1,5 +1,5 @@
 <div class="member">
-  <div class="image"><img alt="{{ member.name }}" src="{{ site.baseurl }}/images/staff_members/{{member.image}}" /></div>
+  {% if member.image %}<div class="image"><img alt="{{ member.name }}" src="{{ site.baseurl }}/images/staff_members/{{member.image}}" /></div>{% endif %}
   <h3>{{ member.name }}</h3>
   <p>{{ member.title }}<br/><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
 </div>
