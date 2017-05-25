@@ -10,11 +10,11 @@ Physician Paul Langerhans first identified round structures in the pancreas as �
 
 We study the insulin-producing beta-cells inside these islets because these cells are critical to regulating blood sugar. Importantly, problems with beta-cells are 100% of the cause of type 1 diabetes (autoimmune-mediated diabetes mellitus, sometime called “juvenile” or insulin-dependent (IDDM)) and ~50% of the cause of type 2 diabetes mellitus (obesity-associated diabetes, sometimes called “adult-onset” or “non-insulin–dependent” (NIDDM)).
 
-Islets are tricky to study because they are widely separated from one another, and they make up only 1-2% of the total volume of the pancreas. In order to study these micro-organs in a dish, these [islets must first be isolated from the rest of the pancreas](#islet-isolation), a tricky process.
+Islets are tricky to study because they are widely separated from one another, and they make up only 1-2% of the total volume of the pancreas. In order to study these micro-organs in a dish, these islets must first be isolated from the rest of the pancreas, a tricky process.
 
 ### Islet isolation
 
-Islets are obtained by a tricky isolation process that consists of two basic steps:
+Islets are obtained by an isolation process that consists of two basic steps:
 
 1. A mixture of digestive enzymes called collagenase is injected into the pancreas through the common bile duct. Once the pancreas inflates with collaganease, it is removed and digested for a specified time. The pancreas is then gently broken apart in solution. Figure Panel A shows what a digested pancreas looks like in a dish. A single amber-colored islet is located in the center of the image (and a smaller one in the upper left corner.
 

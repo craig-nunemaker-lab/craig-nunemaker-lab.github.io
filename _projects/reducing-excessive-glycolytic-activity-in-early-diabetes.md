@@ -11,7 +11,7 @@ As shown in the accompanying figure, mildly reducing excessive glycolytic rates 
 
 ![Loss of pulsatility](/images/projects/reducing-excessive-glycolytic-activity-in-early-diabetes.png)
 
-Loss of pulsatility is a hallmark of islet dysfunction in T2D. Disrupted patterns of calcium in diabetic islets (A) can be restored by treating islets with a glucokinase inhibitor (MH) to reduce excessive rates of glycolysis (B). MH treatment thus promotes pulsatility and enhances insulin output from diabetic islets. In contrast, reducing glycolysis in normal islets has mild inhibitory effects (D-F).
+Loss of pulsatility is a hallmark of islet dysfunction in T2D. Disrupted patterns of calcium in diabetic islets (A) can be restored by treating islets with a glucokinase inhibitor (MH) to reduce excessive rates of glycolysis (B). MH treatment thus promotes pulsatility and enhances insulin output from diabetic islets. In contrast, reducing glycolysis in normal islets has mild inhibitory effects (C-F).
 
 *Our current work is focused on:*
 
