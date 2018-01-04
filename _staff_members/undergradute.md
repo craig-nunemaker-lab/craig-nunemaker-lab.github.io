@@ -1,6 +1,8 @@
 ---
-name: Undergradute
+name: Ricky Chilcott
 title: Undergradute
 image:
 email:
 ---
+
+
