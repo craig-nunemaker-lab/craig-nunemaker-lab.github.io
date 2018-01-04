@@ -1,5 +1,5 @@
 ---
-title: Lindor Gelin places second at ARCC
+title: Lindor Gelin's poster presentation places second at ARCC
 date: 2017-12-02 00:00:00
 ---
 
