@@ -2,8 +2,6 @@
 collections:
   staff_members:
     output: false
-  publications:
-    output: false
   projects:
     output: true
 
