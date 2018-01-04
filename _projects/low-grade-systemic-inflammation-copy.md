@@ -4,11 +4,20 @@ title: Novel drugs to treat type 1 diabetes
 ---
 
 
-A key factor in early T2D is the development of obesity-induced stress on fat tissue (see Figure). This stress increases the circulating levels of certain proinflammatory cytokines (chemical signals made primarily by the immune system), resulting in a state of low-grade systemic inflammation that can increase the risk of developing T2D. We have [published that circulating levels of cytokines in the bloodstream are sufficient to disrupt normal islet function and even kill islets from diabetes-prone mice](https://www.ncbi.nlm.nih.gov/pubmed/?term=23836031) early in the disease process, without causing much effect on islets from healthy mice. My lab primarily uses fluorescence imaging techniques to examine how islet cells respond to stimulation or to damage in real time.
+Type 1 diabetes (T1D) is a devastating autoimmune disorder resulting in the loss of pancreatic beta-cells. Since beta-cells are the only cells in the body capable of releasing insulin, the loss of these cells results in hyperglycemia that can only be treated by injecting the patient with insulin. By the time T1D is diagnosed, it is estimated that 80-90% of beta-cells have been lost, with the remainder targeted for destruction.&nbsp;
+{: .present-before-paste}
 
-![Macrophage infiltation](/images/projects/low-grade_systemic_inflammation.png)
+Our lab recently found a compound that may help to treat T1D in two important ways:
+{: .present-before-paste}
+
+1. Stimulate existing cells to secret more insulin.
+{: .present-before-paste}
+
+2. Protect remaining beta-cells from destruction.&nbsp;
+{: .present-before-paste}
 
 *Our current work is focused on:*
+{: .present-before-paste}
 
 1. Identifying what cytokines become elevated early in diabetes and whether they impact islet function.
 2. Figuring out how islets from diabetes-prone mice respond so differently to cytokines than islets from normal healthy mice.
