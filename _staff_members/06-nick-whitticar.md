@@ -1,5 +1,5 @@
 ---
 name: Nick Whitticar
 role_title: Undergraduate
-image: Nick_Whitticar_2017.jpg
+image: /images/staff_members/Nick_Whitticar_2017.jpg
 ---

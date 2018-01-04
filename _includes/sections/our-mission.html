@@ -25,7 +25,7 @@
         <p class="meta">
           {% assign principle = site.staff_members | where: "title", "Principle Investigator" | first %}
           <span class="author editable"><strong>{{ principle.name }}</strong><br />{{ principle.title}}</span>
-          <span class="image"><img class="editable" src="{{ site.baseurl }}/images/staff_members/{{ principle.image }}" alt="{{ principle.name }}" /></span>
+          <span class="image"><img class="editable" src="{{ site.baseurl }}{{ principle.image }}" alt="{{ principle.name }}" /></span>
         </p>
       </div>
     </blockquote>
