@@ -1,5 +1,5 @@
 ---
 name: Sarah Morris
-title: Undergraduate
+role_title: Undergraduate
 image:
 ---

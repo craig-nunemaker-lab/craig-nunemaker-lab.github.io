@@ -1,6 +1,6 @@
 ---
 name:
-title:
+role_title:
 image:
 email:
 ---

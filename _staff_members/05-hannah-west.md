@@ -1,5 +1,5 @@
 ---
 name: Hannah West
-title: Undergraduate
+role_title: Undergraduate
 image: Hannah_West_2017.jpg
 ---
