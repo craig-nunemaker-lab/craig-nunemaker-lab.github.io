@@ -2,6 +2,7 @@
 collections:
   staff_members:
     output: false
+    _hide_content: true
   projects:
     output: true
 
