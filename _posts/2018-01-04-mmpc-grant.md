@@ -1,6 +1,7 @@
 ---
 title: MMPC Grant
 date: 2018-01-04 00:00:00
+image:
 ---
 
 

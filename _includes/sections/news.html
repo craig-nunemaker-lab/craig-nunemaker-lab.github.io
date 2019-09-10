@@ -1,16 +1,25 @@
 <section id="news">
   <div class="container">
     <h2 class="editable">Recent News</h2>
-    <p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Update</a></p>
+    <p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Update</a>
+    </p>
     {% for post in site.posts %}
-      <div class="post">
-        <div class="post-title">
-          <h3>{{ post.title }}</h3>
-          {% unless site.news.show_dates == false %}<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>{% endunless %}
-        </div>
-        {{ post.content }}
-        <p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="btn"><strong>&#9998;</strong> Edit Update</a></p>
+    <div class="post">
+      <div class="post-title">
+        <h3>{{ post.title }}</h3>
+        {% unless site.news.show_dates == false %}<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>{% endunless %}
       </div>
+      <div class="content">
+        {% if post.image %}
+        <div class="image">
+          <img src="{{ post.image }}" alt="{{ post.content | strip_html | truncatewords: 10 }}" />
+        </div>
+        {% endif %}
+        <div class="text">{{ post.content }}</div>
+      </div>
+      <p class=" editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="btn"><strong>&#9998;</strong>
+          Edit Update</a></p>
+    </div>
     {% endfor %}
   </div>
 </section>

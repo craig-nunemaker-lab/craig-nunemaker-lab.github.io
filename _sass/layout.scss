@@ -255,12 +255,22 @@ footer {
 }
 
 .post + .post {
-  margin: 50px 0 0 0;
-
+  margin: 25px 0 0 0;
 }
 
 .post {
   @include black-links;
+
+  .content {
+    display: flex;
+    align-items: flex-start;
+
+    .image {
+      margin-top: 1.75em;
+      margin-right: 1em;
+      max-width: 25%;
+    }
+  }
 }
 
 .editor-link {
