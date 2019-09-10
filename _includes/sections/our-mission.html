@@ -1,20 +1,18 @@
 <section>
   <div class="container our-projects">
     <h2 class="editable">Our Focus</h2>
-    <p class="editable"><img src="/images/hands.jpg" /> Without insulin, your body would not be able to regulate how much fuel (glucose) to provide to your muscles or how much energy should be put into storage as fat. Without insulin, you get diabetes (too much sugar in the blood, and not enough where it belongs). My lab studies the cells in the pancreas that make and release insulin in order to learn how they help to regulate energy needs of the body and to learn how to fix what goes wrong with the beta-cells in type 2 diabetes (T2D). <a href="/projects/overview">See our work and specific projects.</a><br /><br />Here is a link to all of our publications:&nbsp;<a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=nunemaker+cs">https://www.ncbi.nlm.nih.gov/pubmed/?term=nunemaker+cs</a></p>
+    <p class="editable"><img src="/images/hands.jpg" /> Without insulin, your body would not be able to regulate how
+      much fuel (glucose) to provide to your muscles or how much energy should be put into storage as fat. Without
+      insulin, you get diabetes (too much sugar in the blood, and not enough where it belongs). My lab studies the cells
+      in the pancreas that make and release insulin in order to learn how they help to regulate energy needs of the body
+      and to learn how to fix what goes wrong with the beta-cells in type 2 diabetes (T2D).
+      <a href="/projects/overview">See our work and specific projects.</a>
+      <br /><br />
+      Here is a link to all of our publications:&nbsp;
+      <a
+        href="https://www.ncbi.nlm.nih.gov/pubmed/?term=nunemaker+cs">https://www.ncbi.nlm.nih.gov/pubmed/?term=nunemaker+cs</a>
+    </p>
   </div>
-
-  {% unless site.publications | size == 0 %}
-    <div class="container publications">
-      <h3 class="center editable">Selected Publications</h3>
-      {% for pub in site.publications %}
-        <div class="pub">
-          {{ pub.content }}
-          <p class="editor-link"><a href="cloudcannon:collections/{{ pub.path }}" class="btn"><strong>&#9998;</strong>Edit Publication</a></p>
-        </div>
-      {% endfor %}
-    </div>
-  {% endunless %}
 </section>
 
 <section id="quote">
@@ -25,7 +23,8 @@
         <p class="meta">
           {% assign principle = site.staff_members | where: "title", "Principle Investigator" | first %}
           <span class="author editable"><strong>{{ principle.name }}</strong><br />{{ principle.title}}</span>
-          <span class="image"><img class="editable" src="{{ site.baseurl }}{{ principle.image }}" alt="{{ principle.name }}" /></span>
+          <span class="image"><img class="editable" src="{{ site.baseurl }}{{ principle.image }}"
+              alt="{{ principle.name }}" /></span>
         </p>
       </div>
     </blockquote>
