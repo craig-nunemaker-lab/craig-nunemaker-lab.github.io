@@ -1,6 +1,6 @@
 ---
 title: William Koch Earns John J. Kopchick Fellowship
-date: 2019-09-10 00:00:00
+date: 2018-09-10 00:00:00
 image:
 ---
 
