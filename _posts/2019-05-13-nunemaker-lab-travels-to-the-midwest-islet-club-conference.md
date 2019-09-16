@@ -1,5 +1,5 @@
 ---
-title: Nunemaker Lab Travels to the Midwest Islet Club
+title: Nunemaker Lab Travels to the Midwest Islet Club Conference
 date: 2019-05-13 00:00:00
 image: /images/staff_members/nick-mic-cropped.jpg
 ---
