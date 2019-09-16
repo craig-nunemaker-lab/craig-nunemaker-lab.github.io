@@ -1,5 +1,5 @@
 ---
-title: NIDDK R15 Grant
+title: Nunemaker Lab Awarded NIDDK R15 Grant
 date: 2019-09-16 00:00:00
 image:
 ---
