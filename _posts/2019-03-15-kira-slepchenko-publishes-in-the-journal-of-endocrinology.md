@@ -1,6 +1,6 @@
 ---
 title: Kira Slepchenko Publishes in the Journal of Endocrinology
-date: 2019-09-15 00:00:00
+date: 2019-03-15 00:00:00
 image:
 ---
 
