@@ -1,6 +1,6 @@
 ---
 title: Kira Slepchenko Wins Award at Student Expo
-date: 2019-09-12 00:00:00
+date: 2019-04-12 00:00:00
 image: /images/staff_members/20190411-studentexpo-0026hr.JPG
 ---
 
