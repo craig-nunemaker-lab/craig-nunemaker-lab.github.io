@@ -1,5 +1,5 @@
 ---
-title: The Nunemaker Lab welcomes a new graduate student
+title: The Nunemaker Lab Welcomes a New International Graduate Student
 date: 2019-08-24 00:00:00
 image:
 ---
