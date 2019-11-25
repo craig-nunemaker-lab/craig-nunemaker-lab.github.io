@@ -1,5 +1,5 @@
 ---
-title: 'Hannah West secures $1,500 in research funding'
+title: 'Hannah West Secures $1,500 in Research Funding'
 date: 2019-11-25 00:00:00
 image: /images/staff_members/hkb-0371.JPG
 ---
