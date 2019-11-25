@@ -1,7 +1,7 @@
 ---
 title: 'Hannah West Secures $1,500 in Research Funding'
 date: 2019-11-25 00:00:00
-image: /images/staff_members/hkb-0371-1.JPG
+image: /images/staff_members/hkb-0371-2.JPG
 ---
 
 (November, 2019) Now in her final year of college, Hannah West (second from left) has earned $1,500 through the John J. Kopchick Undergraduate Student Support Fund. This is the second competitive grant Hannah has won this year to fund her research on neonatal islet development. Awesome job Hannah\!
