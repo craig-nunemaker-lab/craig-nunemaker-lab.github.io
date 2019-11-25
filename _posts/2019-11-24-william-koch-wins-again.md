@@ -1,5 +1,5 @@
 ---
-title: Bill Koch Wins Again
+title: William Koch Wins Again!
 date: 2019-11-24 00:00:00
 image: /images/staff_members/hkb-0392.JPG
 ---
