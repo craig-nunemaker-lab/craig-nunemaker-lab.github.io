@@ -1,5 +1,5 @@
 ---
-title: Kira Slepchenko Completes Her PhD
+title: Kira Slepchenko Finishes Her PhD
 date: 2022-04-01 00:00:00
 image: /images/staff_members/kira-grad.jpg
 ---
